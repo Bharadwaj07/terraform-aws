@@ -87,8 +87,8 @@ resource "aws_security_group" "allow_web" {
     },
     {
       description      = "SSH"
-      from_port        = 2
-      to_port          = 2
+      from_port        = 22
+      to_port          = 22
       protocol         = "tcp"
       ipv6_cidr_blocks = null
       prefix_list_ids  = null
